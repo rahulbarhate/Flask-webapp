@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>
+            Flask Assests
+        </title>
+    </head>
+
+    <body>
+        <h1>
+            Flask Assests Example!
+        </h1>
+        {% assets "main_js" %}
+        <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+        {% endassets %}
+
+    </body>
+</html>

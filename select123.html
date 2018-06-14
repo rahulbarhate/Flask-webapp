@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="{{ url_for('select123') }}"  method="post">
+  Enter Query:<br>
+  <input type="text" name="query" ><br>
+
+<h2>Actors</h2>
+  <input type="checkbox" name="actor" value="amitabh"> Amitabh Bachchan<br>
+  <input type="checkbox" name="actor" value="salman"> Salman Khan<br>
+  <input type="checkbox" name="actor" value="shahrukh"> Shahrukh Khan<br>
+  <input type="checkbox" name="actor" value="aamir"> Aamir Khan<br>
+  
+<h2>Emotions</h2>
+
+  <input type="checkbox" name="emotion" value="happy"> Happy<br>
+  <input type="checkbox" name="emotion" value="sad"> Sad<br>
+  <input type="checkbox" name="emotion" value="surprise"> Surprise<br>
+  <input type="checkbox" name="emotion" value="fear"> Fear<br>
+  <input type="checkbox" name="emotion" value="contempt"> Contempt<br>
+  <input type="checkbox" name="emotion" value="anger"> Anger<br>
+  <input type="checkbox" name="emotion" value="disgust"> Disgust<br>
+  
+<h2>Ojects</h2>
+ 
+  <input type="checkbox" name="object" value="table"> Table<br>
+  <input type="checkbox" name="object" value="hat"> Hat<br>
+  <input type="checkbox" name="object" value="tie"> Tie<br>
+  <input type="checkbox" name="object" value="chair"> Chair<br>
+  
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
